@@ -11,6 +11,7 @@ public class App
 
         System.out.println( "Hello World!" );
 
-
+        logger.error("Everything is good");
+        System.out.println("gg");
     }
 }
