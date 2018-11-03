@@ -7,7 +7,7 @@
   <groupId>mvn_test</groupId>
   <artifactId>test</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+    <packaging>jar</packaging>
   <name>test</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -26,6 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
       <dependency>
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-api</artifactId>
@@ -42,22 +43,86 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+          <plugin>
+              <artifactId>maven-assembly-plugin</artifactId>
+              <version>3.1.0</version>
+              <configuration>
+                  <descriptorRefs>
+                      <descriptorRef>jar-with-dependencies</descriptorRef>
+                  </descriptorRefs>
+              </configuration>
+              <executions>
+                  <execution>
+                      <id>make-assembly</id>
+                      <phase>package</phase>
+                      <goals>
+                          <goal>single</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+
 
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
 
-              <plugin>
-                  <artifactId>maven-jar-plugin</artifactId>
-                  <configuration>
-                      <archive>
-                          <manifest>
-                              <mainClass>mvn_test.Main</mainClass>
-                          </manifest>
-                      </archive>
-                  </configuration>
-              </plugin>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-shade-plugin</artifactId>
+              <version>3.2.0</version>
+              <executions>
+                  <execution>
+                      <phase>package</phase>
+                      <goals>
+                          <goal>shade</goal>
+                      </goals>
+                      <configuration>
+                          <transformers>
+                              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                  <mainClass>mvn_test.Main</mainClass>
+                              </transformer>
+                          </transformers>
+                              <minimizeJar>true</minimizeJar>
+                              <filters>
+                                  <filter>
+                                      <artifact>log4j:log4j</artifact>
+                                      <includes>
+                                          <include>**</include>
+                                      </includes>
+                                  </filter>
+                                  <filter>
+                                      <artifact>commons-logging:commons-logging</artifact>
+                                      <includes>
+                                          <include>**</include>
+                                      </includes>
+                                  </filter>
+                              </filters>
+                      </configuration>
+                  </execution>
+              </executions>
+          </plugin>
+
+
+
+          <plugin>
+              <!-- Build an executable JAR -->
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>3.1.0</version>
+              <configuration>
+                  <archive>
+                      <manifest>
+                          <addClasspath>true</addClasspath>
+                          <classpathPrefix>lib/</classpathPrefix>
+                          <mainClass>mvn_test.Main</mainClass>
+                      </manifest>
+                  </archive>
+              </configuration>
+          </plugin>
+
+
 
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -73,8 +138,6 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-
-
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>

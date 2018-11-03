@@ -1,60 +1,90 @@
-2018-11-01 22:53:19 INFO  Main:23 - Object hobby has been created
-2018-11-01 22:53:19 DEBUG Main:24 - Object hobby has been created
-2018-11-01 22:53:19 ERROR Main:25 - Object hobby has been created
-2018-11-01 22:53:19 INFO  Main:55 - Object hobby has been created with name programming
-2018-11-01 22:53:19 DEBUG Main:56 - Object hobby has been created with name programming
-2018-11-01 22:53:19 ERROR Main:57 - Object hobby has been created with name programming
-2018-11-01 22:53:19 DEBUG Main:152 - Debug mode: programming is a hobby
-2018-11-01 22:53:19 INFO  Main:155 - Info mode: programming is a hobby
-2018-11-01 22:53:19 ERROR Main:157 - Error mode: programming is a hobby
-2018-11-01 22:53:19 INFO  Main:43 - Object hobby has been created
-2018-11-01 22:53:19 DEBUG Main:44 - Object hobby has been created
-2018-11-01 22:53:19 ERROR Main:45 - Object hobby has been created
-2018-11-01 22:53:19 DEBUG Main:152 - Debug mode: math is hobby
-2018-11-01 22:53:19 INFO  Main:155 - Info mode: math is hobby
-2018-11-01 22:53:19 ERROR Main:157 - Error mode: math is hobby
-2018-11-01 22:59:51 INFO  Main:23 - Object hobby has been created
-2018-11-01 22:59:51 DEBUG Main:24 - Object hobby has been created
-2018-11-01 22:59:51 ERROR Main:25 - Object hobby has been created
-2018-11-01 22:59:51 INFO  Main:55 - Object hobby has been created with name programming
-2018-11-01 22:59:51 DEBUG Main:56 - Object hobby has been created with name programming
-2018-11-01 22:59:51 ERROR Main:57 - Object hobby has been created with name programming
-2018-11-01 22:59:51 DEBUG Main:152 - Debug mode: programming is a hobby
-2018-11-01 22:59:51 INFO  Main:155 - Info mode: programming is a hobby
-2018-11-01 22:59:51 ERROR Main:157 - Error mode: programming is a hobby
-2018-11-01 22:59:51 INFO  Main:43 - Object hobby has been created
-2018-11-01 22:59:51 DEBUG Main:44 - Object hobby has been created
-2018-11-01 22:59:51 ERROR Main:45 - Object hobby has been created
-2018-11-01 22:59:51 DEBUG Main:152 - Debug mode: math is hobby
-2018-11-01 22:59:51 INFO  Main:155 - Info mode: math is hobby
-2018-11-01 22:59:51 ERROR Main:157 - Error mode: math is hobby
-2018-11-01 23:06:03 INFO  Main:23 - Object hobby has been created
-2018-11-01 23:06:03 DEBUG Main:24 - Object hobby has been created
-2018-11-01 23:06:03 ERROR Main:25 - Object hobby has been created
-2018-11-01 23:06:03 INFO  Main:55 - Object hobby has been created with name programming
-2018-11-01 23:06:03 DEBUG Main:56 - Object hobby has been created with name programming
-2018-11-01 23:06:03 ERROR Main:57 - Object hobby has been created with name programming
-2018-11-01 23:06:03 DEBUG Main:152 - Debug mode: programming is a hobby
-2018-11-01 23:06:03 INFO  Main:155 - Info mode: programming is a hobby
-2018-11-01 23:06:03 ERROR Main:157 - Error mode: programming is a hobby
-2018-11-01 23:06:03 INFO  Main:43 - Object hobby has been created
-2018-11-01 23:06:03 DEBUG Main:44 - Object hobby has been created
-2018-11-01 23:06:03 ERROR Main:45 - Object hobby has been created
-2018-11-01 23:06:03 DEBUG Main:152 - Debug mode: math is hobby
-2018-11-01 23:06:03 INFO  Main:155 - Info mode: math is hobby
-2018-11-01 23:06:03 ERROR Main:157 - Error mode: math is hobby
-2018-11-01 23:39:31 INFO  Main:23 - Object hobby has been created
-2018-11-01 23:39:31 DEBUG Main:24 - Object hobby has been created
-2018-11-01 23:39:31 ERROR Main:25 - Object hobby has been created
-2018-11-01 23:39:31 INFO  Main:55 - Object hobby has been created with name programming
-2018-11-01 23:39:31 DEBUG Main:56 - Object hobby has been created with name programming
-2018-11-01 23:39:31 ERROR Main:57 - Object hobby has been created with name programming
-2018-11-01 23:39:31 DEBUG Main:152 - Debug mode: programming is a hobby
-2018-11-01 23:39:31 INFO  Main:155 - Info mode: programming is a hobby
-2018-11-01 23:39:31 ERROR Main:157 - Error mode: programming is a hobby
-2018-11-01 23:39:31 INFO  Main:43 - Object hobby has been created
-2018-11-01 23:39:31 DEBUG Main:44 - Object hobby has been created
-2018-11-01 23:39:31 ERROR Main:45 - Object hobby has been created
-2018-11-01 23:39:31 DEBUG Main:152 - Debug mode: math is hobby
-2018-11-01 23:39:31 INFO  Main:155 - Info mode: math is hobby
-2018-11-01 23:39:31 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:15:08 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:15:08 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:15:08 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:15:08 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:15:08 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:15:08 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:15:08 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:15:08 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:15:08 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:15:08 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:15:08 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:15:08 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:15:08 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:15:08 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:15:08 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:16:15 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:16:15 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:16:15 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:16:15 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:16:15 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:16:15 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:16:15 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:16:15 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:16:15 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:16:15 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:16:15 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:16:15 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:16:15 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:16:15 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:16:15 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:18:40 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:18:40 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:18:40 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:18:40 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:18:40 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:18:40 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:18:40 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:18:40 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:18:40 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:18:40 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:18:40 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:18:40 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:18:40 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:18:40 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:18:40 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:25:31 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:25:31 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:25:31 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:25:31 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:25:31 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:25:31 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:25:31 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:25:31 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:25:31 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:25:31 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:25:31 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:25:31 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:25:31 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:25:31 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:25:31 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:26:11 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:26:11 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:26:11 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:26:11 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:26:11 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:26:11 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:26:11 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:26:11 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:26:11 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:26:11 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:26:11 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:26:11 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:26:11 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:26:11 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:26:11 ERROR Main:157 - Error mode: math is hobby
+2018-11-03 01:26:38 INFO  Main:23 - Object hobby has been created
+2018-11-03 01:26:39 DEBUG Main:24 - Object hobby has been created
+2018-11-03 01:26:39 ERROR Main:25 - Object hobby has been created
+2018-11-03 01:26:39 INFO  Main:55 - Object hobby has been created with name programming
+2018-11-03 01:26:39 DEBUG Main:56 - Object hobby has been created with name programming
+2018-11-03 01:26:39 ERROR Main:57 - Object hobby has been created with name programming
+2018-11-03 01:26:39 DEBUG Main:152 - Debug mode: programming is a hobby
+2018-11-03 01:26:39 INFO  Main:155 - Info mode: programming is a hobby
+2018-11-03 01:26:39 ERROR Main:157 - Error mode: programming is a hobby
+2018-11-03 01:26:39 INFO  Main:43 - Object hobby has been created
+2018-11-03 01:26:39 DEBUG Main:44 - Object hobby has been created
+2018-11-03 01:26:39 ERROR Main:45 - Object hobby has been created
+2018-11-03 01:26:39 DEBUG Main:152 - Debug mode: math is hobby
+2018-11-03 01:26:39 INFO  Main:155 - Info mode: math is hobby
+2018-11-03 01:26:39 ERROR Main:157 - Error mode: math is hobby
